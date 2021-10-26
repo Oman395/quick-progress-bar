@@ -19,8 +19,8 @@ setInterval(() => {
 ```
 ## Class bar
 ### Constructor
-1. Length
-  1. Length of graph. Defaults to 100.
+1. length
+  Length of graph. Defaults to 100.
 2. options
   1. corners
     1. Top left corner.
@@ -36,17 +36,17 @@ setInterval(() => {
     6. Filled space.
 ### addBar
 1. name
-  1. Name to assign.
+  Name to assign.
 2. unit
-  1. Unit type.
+  Unit type.
 3. val1
-  1. Smaller value.
+  Smaller value.
 4. val2
-  1. Larger value.
+  Larger value.
 ### update
 1. one
-  1. Smaller value.
+  Smaller value.
 2. two
-  1. Larger value.
+  Larger value.
 3. name
-  1. Name of bar to update.
+  Name of bar to update.
