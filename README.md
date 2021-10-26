@@ -19,15 +19,15 @@ setInterval(() => {
 ```
 ## Class bar
 ### Constructor
-1. length
+1. length:
   Length of graph. Defaults to 100.
-2. options
-  1. corners
+2. options:
+  1. corners:
     1. Top left corner.
     2. Top right corner.
     3. Bottom right corner.
     4. Bottom left corner.
-  2. otherBlocks
+  2. otherBlocks:
     1. Horizontal line.
     2. Vertical line.
     3. Left middle piece.
@@ -35,18 +35,18 @@ setInterval(() => {
     5. Empty space.
     6. Filled space.
 ### addBar
-1. name
+1. name:
   Name to assign.
-2. unit
+2. unit:
   Unit type.
-3. val1
+3. val1:
   Smaller value.
-4. val2
+4. val2:
   Larger value.
 ### update
-1. one
+1. one:
   Smaller value.
-2. two
+2. two:
   Larger value.
-3. name
+3. name:
   Name of bar to update.
