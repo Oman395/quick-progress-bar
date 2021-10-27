@@ -1,15 +1,15 @@
 {
-  "type": "module",
-  "name": "simple-progress-bar",
-  "version": "0.1.0",
-  "description": "Simple progress bar script I made b/c the ones I found were a tad cumbersome",
-  "main": "index.js",
-  "directories": {
-    "example": "examples"
-  },
-  "scripts": {
-    "test": "node index.js"
-  },
-  "author": "Oran RH",
-  "license": "MIT"
+    "type": "module",
+    "name": "quick-progress-bar",
+    "version": "0.1.1",
+    "description": "Simple progress bar script I made b/c the ones I found were a tad cumbersome",
+    "main": "index.js",
+    "directories": {
+        "example": "examples"
+    },
+    "scripts": {
+        "test": "node index.js"
+    },
+    "author": "Oran RH",
+    "license": "MIT"
 }
