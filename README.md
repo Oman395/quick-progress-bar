@@ -23,23 +23,6 @@ setInterval(() => {
   bar.update(secs, 60, 'Name');
 }, 1000);
 ```
-### Using CommonJS
-
-```js
-const progress = require('simple-progress-bar');
-
-var bar = new progress.bar();
-
-var secs = 0;
-
-bar.addBar('Seconds', 'S', secs, 60);
-
-setInterval(() => {
-  secs++;
-  if(secs > 59) secs = 0;
-  bar.update(secs, 60, 'Name');
-}, 1000);
-```
 ## Methods
 ```js
 // Create bar
