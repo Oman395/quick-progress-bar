@@ -1,17 +1,13 @@
-import index from './index.js';
-var bar = new index.bar();
-var s = 0;
-var m = 0;
-bar.addBar('Heap', 'KB', process.memoryUsage().heapUsed / 1000, process.memoryUsage().heapTotal / 1000);
-bar.addBar('Seconds', 'S', s, 60);
-bar.addBar('Minutes', 'M', m, 60);
-setInterval(() => {
-    bar.update(process.memoryUsage().heapUsed / 1000, process.memoryUsage().heapTotal / 1000, 'Heap');
-}, 100);
+import progress from '../index.js';
+
+var bar = new progress.bar();
+
+var secs = 0;
+
+bar.addBar('Name', 'Unit', secs, 60);
 
 setInterval(() => {
-    s++;
-    if (s > 59) { s = 0; m++; };
-    bar.update(s, 60, 'Seconds');
-    bar.update(m, 60, 'Minutes');
+  secs++;
+  if(secs > 59) secs = 0;
+  bar.update(secs, 60, 'Name');
 }, 1000);
