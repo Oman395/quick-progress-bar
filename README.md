@@ -1,15 +1,15 @@
-# simple-progress-bar
+# quick-progress-bar
 Simple progress bar script I made b/c the ones I found were a tad cumbersome
 ## Installation
 ### Installing with npm
 ```
-npm i simple-progress-bar
+npm i quick-progress-bar
 ```
 ## Example
 ### Using ES6 Module
 
 ```js
-import progress from 'simple-progress-bar';
+import progress from 'quick-progress-bar';
 
 var bar = new progress.bar();
 
