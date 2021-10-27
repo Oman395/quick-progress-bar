@@ -1,6 +1,6 @@
 {
+    "type": "module",
     "dependencies": {
-        "simple-progress-bar": "^0.3.6"
-    },
-    "type": "module"
+        "quick-progress-bar": "^0.1.1"
+    }
 }
